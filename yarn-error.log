@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/core @babel/preset-env @babel/preset react babel-loader -D
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Java\zulu17.34.19-ca-jdk17.0.3-win_x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;% USERPROFILE% \ AppData \ Roaming \ npm;C:\src\flutter\bin;C:\src\flutter_v1.0.0;C:\Program Files\Git\bin;C:\windows;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Users\Serratec\AppData\Local\Microsoft\WindowsApps;C:\Users\Serratec\AppData\Local\Programs\Microsoft VS Code\bin;- C:\Users\Serratec\AppData\Local\Android\Sdk\emulator;- C:\Users\Serratec\AppData\Local\Android\Sdk\tools;- C:\Users\Serratec\AppData\Local\Android\Sdk\tools\bin;- C:\Users\Serratec\AppData\Local\Android\Sdk\platform-tools;C:\Users\Serratec\AppData\Local\Yarn\bin;C:\Android\Sdk;C:\Program Files\heroku\bin;C:\src\flutter\bin;C:\Users\Serratec\.dotnet\tools;C:\Users\Serratec\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fpreset: Not found
+      at Request.params.callback [as _callback] (C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\Serratec\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "projetoReactComBabel",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
