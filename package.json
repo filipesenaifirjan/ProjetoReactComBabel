@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open --hot --mode developament",
+    "build": "webpack --mode production"
+  },
   "devDependencies": {
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "style-loader": "^3.3.1",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
